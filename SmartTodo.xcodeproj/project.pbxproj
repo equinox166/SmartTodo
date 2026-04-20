@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026FED9C27B2F3273A2CDD37 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD8DD39709F5C2017266CE /* TodoListViewModel.swift */; };
+		39474F24073F291CBD83BBF6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534E87247F7CD5DAEFCD19C8 /* SettingsView.swift */; };
+		3F18BDFA77CF82EE9FF7B057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B54923B3E703A8A3A478863 /* Foundation.framework */; };
+		4A5848F9BB5D47A7FF2DCCC4 /* DeepSeekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5BAFCF1E7FE08A7E186D32 /* DeepSeekClient.swift */; };
+		78BBBA52DD316D0759081720 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF446E3D2E19A1EC6C12F3D /* TodoDetailView.swift */; };
+		7FF53965BC2E66BCD3021A6D /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1A4F311BF9863AD4AED550 /* AddTodoView.swift */; };
+		85B523D64C9FDF3A58686B7B /* TodoListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D6CCE6904A5DAC652F910 /* TodoListsView.swift */; };
+		A82BDD4687B3EAC3CB3E9B14 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9768488970BA20A63A8B3103 /* KeychainHelper.swift */; };
+		B3A6965E62E2C5686E81126F /* TodoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CA7616D73DE62E28B94E3 /* TodoModels.swift */; };
+		C7534B8CFA8C6D3BEB2D0EC5 /* SmartTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC25EC25F668CE27DA3E255 /* SmartTodoApp.swift */; };
+		DF9FA3C7208A7580111DCCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4CBBABAB06B8B528768165 /* Assets.xcassets */; };
+		FB051CA2272FDD04C035CAD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5264BABC72233CDE527A1256 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A8D6CCE6904A5DAC652F910 /* TodoListsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoListsView.swift; path = SmartTodo/Views/TodoListsView.swift; sourceTree = "<group>"; };
+		32AD8DD39709F5C2017266CE /* TodoListViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoListViewModel.swift; path = SmartTodo/ViewModels/TodoListViewModel.swift; sourceTree = "<group>"; };
+		4EAFC74BAD314627335B9BE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SmartTodo/Resources/Info.plist; sourceTree = "<group>"; };
+		5264BABC72233CDE527A1256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "SmartTodo/Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+		534E87247F7CD5DAEFCD19C8 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = SmartTodo/Views/SettingsView.swift; sourceTree = "<group>"; };
+		7B54923B3E703A8A3A478863 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C6CA7616D73DE62E28B94E3 /* TodoModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoModels.swift; path = SmartTodo/Models/TodoModels.swift; sourceTree = "<group>"; };
+		8DF446E3D2E19A1EC6C12F3D /* TodoDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoDetailView.swift; path = SmartTodo/Views/TodoDetailView.swift; sourceTree = "<group>"; };
+		8E5BAFCF1E7FE08A7E186D32 /* DeepSeekClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeepSeekClient.swift; path = SmartTodo/Services/DeepSeekClient.swift; sourceTree = "<group>"; };
+		9768488970BA20A63A8B3103 /* KeychainHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainHelper.swift; path = SmartTodo/Services/KeychainHelper.swift; sourceTree = "<group>"; };
+		CB1A4F311BF9863AD4AED550 /* AddTodoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddTodoView.swift; path = SmartTodo/Views/AddTodoView.swift; sourceTree = "<group>"; };
+		CE4CBBABAB06B8B528768165 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SmartTodo/Assets.xcassets; sourceTree = "<group>"; };
+		E5355803CE08AC69AAAD9198 /* SmartTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC25EC25F668CE27DA3E255 /* SmartTodoApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartTodoApp.swift; path = SmartTodo/SmartTodoApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4E85DD17EFA8F9857F4CC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F18BDFA77CF82EE9FF7B057 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120CC82B5DEB949A2842DFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5355803CE08AC69AAAD9198 /* SmartTodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6D5947C1CF583B12A84C32 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				32AD8DD39709F5C2017266CE /* TodoListViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		461D8A16173BE128BB2A60A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CA7616D73DE62E28B94E3 /* TodoModels.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B26BAE6578A7272B4117DEE /* SmartTodo */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CBBABAB06B8B528768165 /* Assets.xcassets */,
+				461D8A16173BE128BB2A60A1 /* Models */,
+				9325831ED3F4AF68382D9745 /* Preview Content */,
+				C64C1E3205488260D87CB1F8 /* Resources */,
+				F2495F5540F904EAB66F1396 /* Services */,
+				EDC25EC25F668CE27DA3E255 /* SmartTodoApp.swift */,
+				3D6D5947C1CF583B12A84C32 /* ViewModels */,
+				7E5AFFD0054A18AF70E5F076 /* Views */,
+			);
+			name = SmartTodo;
+			path = SmartTodo;
+			sourceTree = "<group>";
+		};
+		7CED1A2A2FE7FDB92F03FA31 = {
+			isa = PBXGroup;
+			children = (
+				120CC82B5DEB949A2842DFF9 /* Products */,
+				C3101FE7842FA556047A602E /* Frameworks */,
+				6B26BAE6578A7272B4117DEE /* SmartTodo */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5AFFD0054A18AF70E5F076 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB1A4F311BF9863AD4AED550 /* AddTodoView.swift */,
+				534E87247F7CD5DAEFCD19C8 /* SettingsView.swift */,
+				8DF446E3D2E19A1EC6C12F3D /* TodoDetailView.swift */,
+				0A8D6CCE6904A5DAC652F910 /* TodoListsView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9325831ED3F4AF68382D9745 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5264BABC72233CDE527A1256 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3101FE7842FA556047A602E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7697FFCF545D920C54B3975 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64C1E3205488260D87CB1F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFC74BAD314627335B9BE9 /* Info.plist */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7697FFCF545D920C54B3975 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7B54923B3E703A8A3A478863 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2495F5540F904EAB66F1396 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E5BAFCF1E7FE08A7E186D32 /* DeepSeekClient.swift */,
+				9768488970BA20A63A8B3103 /* KeychainHelper.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4641A5EF0E84556703A7EF7 /* SmartTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3D3715FD7D9FA283E73E94 /* Build configuration list for PBXNativeTarget "SmartTodo" */;
+			buildPhases = (
+				D0AC8CF48BA0CE44CC9BD0A5 /* Sources */,
+				B4E85DD17EFA8F9857F4CC31 /* Frameworks */,
+				33D3C3B9332B9FD540EC9D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTodo;
+			productName = SmartTodo;
+			productReference = E5355803CE08AC69AAAD9198 /* SmartTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412B84BC64EC5242BDDB492B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 97DAD0A50315EAE70EDC44AC /* Build configuration list for PBXProject "SmartTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CED1A2A2FE7FDB92F03FA31;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 120CC82B5DEB949A2842DFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4641A5EF0E84556703A7EF7 /* SmartTodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D3C3B9332B9FD540EC9D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9FA3C7208A7580111DCCF6 /* Assets.xcassets in Resources */,
+				FB051CA2272FDD04C035CAD9 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0AC8CF48BA0CE44CC9BD0A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A6965E62E2C5686E81126F /* TodoModels.swift in Sources */,
+				4A5848F9BB5D47A7FF2DCCC4 /* DeepSeekClient.swift in Sources */,
+				A82BDD4687B3EAC3CB3E9B14 /* KeychainHelper.swift in Sources */,
+				C7534B8CFA8C6D3BEB2D0EC5 /* SmartTodoApp.swift in Sources */,
+				026FED9C27B2F3273A2CDD37 /* TodoListViewModel.swift in Sources */,
+				7FF53965BC2E66BCD3021A6D /* AddTodoView.swift in Sources */,
+				39474F24073F291CBD83BBF6 /* SettingsView.swift in Sources */,
+				78BBBA52DD316D0759081720 /* TodoDetailView.swift in Sources */,
+				85B523D64C9FDF3A58686B7B /* TodoListsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02C24590292DDFACB7C3F103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartTodo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SmartTodo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smarttodo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E317948F885AD567D757EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22893BD089E32AD33D4486BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D216A42946A45CBFE1818B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartTodo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SmartTodo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smarttodo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97DAD0A50315EAE70EDC44AC /* Build configuration list for PBXProject "SmartTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E317948F885AD567D757EE /* Debug */,
+				22893BD089E32AD33D4486BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3D3715FD7D9FA283E73E94 /* Build configuration list for PBXNativeTarget "SmartTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C24590292DDFACB7C3F103 /* Release */,
+				D216A42946A45CBFE1818B1D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 412B84BC64EC5242BDDB492B /* Project object */;
+}
