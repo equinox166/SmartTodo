@@ -53,27 +53,26 @@ end
 # File groups mirroring folder structure on disk.
 main_group = project.new_group(APP_NAME, APP_NAME)
 
-def add_sources(project, target, group, dir_abs, dir_rel)
+def add_sources(project, target, group, dir_abs)
   Dir.children(dir_abs).sort.each do |entry|
     full = File.join(dir_abs, entry)
-    relative = File.join(dir_rel, entry)
     if File.directory?(full)
-      # Treat .xcassets and preview content as folder references handled below.
+      # xcassets are treated as folder-assetcatalog references (no recursion).
       if entry.end_with?('.xcassets')
-        file_ref = group.new_reference(relative)
+        file_ref = group.new_reference(entry)
         file_ref.last_known_file_type = 'folder.assetcatalog'
         target.resources_build_phase.add_file_reference(file_ref)
         next
       end
       sub = group.new_group(entry, entry)
-      add_sources(project, target, sub, full, relative)
+      add_sources(project, target, sub, full)
     else
-      file_ref = group.new_reference(relative)
+      file_ref = group.new_reference(entry)
       case entry
       when /\.swift\z/
         target.source_build_phase.add_file_reference(file_ref)
       when 'Info.plist'
-        # Referenced via INFOPLIST_FILE build setting; no build phase.
+        # Referenced via INFOPLIST_FILE build setting; no build phase needed.
       when /\.plist\z/, /\.json\z/, /\.strings\z/
         target.resources_build_phase.add_file_reference(file_ref)
       end
@@ -81,7 +80,7 @@ def add_sources(project, target, group, dir_abs, dir_rel)
   end
 end
 
-add_sources(project, target, main_group, File.join(ROOT, APP_NAME), APP_NAME)
+add_sources(project, target, main_group, File.join(ROOT, APP_NAME))
 
 project.save
 puts "Generated #{PROJECT_PATH}"
