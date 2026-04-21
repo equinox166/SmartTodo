@@ -7,166 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		026FED9C27B2F3273A2CDD37 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD8DD39709F5C2017266CE /* TodoListViewModel.swift */; };
-		39474F24073F291CBD83BBF6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534E87247F7CD5DAEFCD19C8 /* SettingsView.swift */; };
-		3F18BDFA77CF82EE9FF7B057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B54923B3E703A8A3A478863 /* Foundation.framework */; };
-		4A5848F9BB5D47A7FF2DCCC4 /* DeepSeekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5BAFCF1E7FE08A7E186D32 /* DeepSeekClient.swift */; };
-		78BBBA52DD316D0759081720 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF446E3D2E19A1EC6C12F3D /* TodoDetailView.swift */; };
-		7FF53965BC2E66BCD3021A6D /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1A4F311BF9863AD4AED550 /* AddTodoView.swift */; };
-		85B523D64C9FDF3A58686B7B /* TodoListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D6CCE6904A5DAC652F910 /* TodoListsView.swift */; };
-		A82BDD4687B3EAC3CB3E9B14 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9768488970BA20A63A8B3103 /* KeychainHelper.swift */; };
-		B3A6965E62E2C5686E81126F /* TodoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CA7616D73DE62E28B94E3 /* TodoModels.swift */; };
-		C7534B8CFA8C6D3BEB2D0EC5 /* SmartTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC25EC25F668CE27DA3E255 /* SmartTodoApp.swift */; };
-		DF9FA3C7208A7580111DCCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4CBBABAB06B8B528768165 /* Assets.xcassets */; };
-		FB051CA2272FDD04C035CAD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5264BABC72233CDE527A1256 /* Preview Assets.xcassets */; };
+		02900BB07C136828DB958C67 /* TodoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F39B98206EB7FE0D27CE6 /* TodoModels.swift */; };
+		21077DFE04AE8FC772868048 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CEF058D86C1B1062CAB80 /* KeychainHelper.swift */; };
+		2E78CC96243ADFB8628E7A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D96546B788086FB96C04EB2 /* Assets.xcassets */; };
+		56C2E30BC44BD2D486D74158 /* TodoListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D21BF94DD69F5EE0194BBC /* TodoListsView.swift */; };
+		5F5909E80801F127145A79BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D873A87B720BA65C41B30E29 /* Preview Assets.xcassets */; };
+		5FD82F67DEE213460814EF39 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E38C29C1D071EAFAB61A4 /* TodoListViewModel.swift */; };
+		6B71BF165B70FB02CF9421C9 /* DeepSeekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C90083841E7E395029B692 /* DeepSeekClient.swift */; };
+		85B5AB03CC3C006111A12FEE /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40EAFA2A30A161E06ED9DB /* TodoDetailView.swift */; };
+		91C4EAD70F17D4791747AC15 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12708A8A8877CD38CFA9E15D /* SettingsView.swift */; };
+		CF87A78A59119478339861EA /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C90E86C3B37CBAC8CE69A67 /* AddTodoView.swift */; };
+		D118F0B66E43779A54B71C1E /* SmartTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09D59F2EECF70846ADEBE5 /* SmartTodoApp.swift */; };
+		D6A24274E21E2F975C581A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BC638D2152DF297EC140D2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A8D6CCE6904A5DAC652F910 /* TodoListsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoListsView.swift; path = SmartTodo/Views/TodoListsView.swift; sourceTree = "<group>"; };
-		32AD8DD39709F5C2017266CE /* TodoListViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoListViewModel.swift; path = SmartTodo/ViewModels/TodoListViewModel.swift; sourceTree = "<group>"; };
-		4EAFC74BAD314627335B9BE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SmartTodo/Resources/Info.plist; sourceTree = "<group>"; };
-		5264BABC72233CDE527A1256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "SmartTodo/Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
-		534E87247F7CD5DAEFCD19C8 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = SmartTodo/Views/SettingsView.swift; sourceTree = "<group>"; };
-		7B54923B3E703A8A3A478863 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8C6CA7616D73DE62E28B94E3 /* TodoModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoModels.swift; path = SmartTodo/Models/TodoModels.swift; sourceTree = "<group>"; };
-		8DF446E3D2E19A1EC6C12F3D /* TodoDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodoDetailView.swift; path = SmartTodo/Views/TodoDetailView.swift; sourceTree = "<group>"; };
-		8E5BAFCF1E7FE08A7E186D32 /* DeepSeekClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeepSeekClient.swift; path = SmartTodo/Services/DeepSeekClient.swift; sourceTree = "<group>"; };
-		9768488970BA20A63A8B3103 /* KeychainHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainHelper.swift; path = SmartTodo/Services/KeychainHelper.swift; sourceTree = "<group>"; };
-		CB1A4F311BF9863AD4AED550 /* AddTodoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddTodoView.swift; path = SmartTodo/Views/AddTodoView.swift; sourceTree = "<group>"; };
-		CE4CBBABAB06B8B528768165 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SmartTodo/Assets.xcassets; sourceTree = "<group>"; };
-		E5355803CE08AC69AAAD9198 /* SmartTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDC25EC25F668CE27DA3E255 /* SmartTodoApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartTodoApp.swift; path = SmartTodo/SmartTodoApp.swift; sourceTree = "<group>"; };
+		12708A8A8877CD38CFA9E15D /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		14C90083841E7E395029B692 /* DeepSeekClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeepSeekClient.swift; sourceTree = "<group>"; };
+		1FF6F330AD4E8CEBB5E2BFBB /* SmartTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222F39B98206EB7FE0D27CE6 /* TodoModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoModels.swift; sourceTree = "<group>"; };
+		22D21BF94DD69F5EE0194BBC /* TodoListsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoListsView.swift; sourceTree = "<group>"; };
+		25BC638D2152DF297EC140D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		409CE3BC817F4C13DEC8E5FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586E38C29C1D071EAFAB61A4 /* TodoListViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		6D96546B788086FB96C04EB2 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C90E86C3B37CBAC8CE69A67 /* AddTodoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		AE6CEF058D86C1B1062CAB80 /* KeychainHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		CF09D59F2EECF70846ADEBE5 /* SmartTodoApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SmartTodoApp.swift; sourceTree = "<group>"; };
+		D873A87B720BA65C41B30E29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD40EAFA2A30A161E06ED9DB /* TodoDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4E85DD17EFA8F9857F4CC31 /* Frameworks */ = {
+		F9AD7175B08F2C68DD46E158 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F18BDFA77CF82EE9FF7B057 /* Foundation.framework in Frameworks */,
+				D6A24274E21E2F975C581A17 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		120CC82B5DEB949A2842DFF9 /* Products */ = {
+		1B1D924AFEB3EBB95C347F00 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E5355803CE08AC69AAAD9198 /* SmartTodo.app */,
+				25BC638D2152DF297EC140D2 /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		3D6D5947C1CF583B12A84C32 /* ViewModels */ = {
+		48F90C2E61D23702B0E241F9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				32AD8DD39709F5C2017266CE /* TodoListViewModel.swift */,
+				586E38C29C1D071EAFAB61A4 /* TodoListViewModel.swift */,
 			);
 			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		461D8A16173BE128BB2A60A1 /* Models */ = {
+		6A75660F6C2D2876AC78FFDE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8C6CA7616D73DE62E28B94E3 /* TodoModels.swift */,
+				222F39B98206EB7FE0D27CE6 /* TodoModels.swift */,
 			);
 			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
-		6B26BAE6578A7272B4117DEE /* SmartTodo */ = {
+		81E8C1828E9BBE29E00AF2AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CBBABAB06B8B528768165 /* Assets.xcassets */,
-				461D8A16173BE128BB2A60A1 /* Models */,
-				9325831ED3F4AF68382D9745 /* Preview Content */,
-				C64C1E3205488260D87CB1F8 /* Resources */,
-				F2495F5540F904EAB66F1396 /* Services */,
-				EDC25EC25F668CE27DA3E255 /* SmartTodoApp.swift */,
-				3D6D5947C1CF583B12A84C32 /* ViewModels */,
-				7E5AFFD0054A18AF70E5F076 /* Views */,
+				1FF6F330AD4E8CEBB5E2BFBB /* SmartTodo.app */,
 			);
-			name = SmartTodo;
-			path = SmartTodo;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		7CED1A2A2FE7FDB92F03FA31 = {
+		90FB910B5092BDDB4A466D4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				120CC82B5DEB949A2842DFF9 /* Products */,
-				C3101FE7842FA556047A602E /* Frameworks */,
-				6B26BAE6578A7272B4117DEE /* SmartTodo */,
-			);
-			sourceTree = "<group>";
-		};
-		7E5AFFD0054A18AF70E5F076 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CB1A4F311BF9863AD4AED550 /* AddTodoView.swift */,
-				534E87247F7CD5DAEFCD19C8 /* SettingsView.swift */,
-				8DF446E3D2E19A1EC6C12F3D /* TodoDetailView.swift */,
-				0A8D6CCE6904A5DAC652F910 /* TodoListsView.swift */,
-			);
-			name = Views;
-			path = Views;
-			sourceTree = "<group>";
-		};
-		9325831ED3F4AF68382D9745 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5264BABC72233CDE527A1256 /* Preview Assets.xcassets */,
-			);
-			name = "Preview Content";
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C3101FE7842FA556047A602E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E7697FFCF545D920C54B3975 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C64C1E3205488260D87CB1F8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4EAFC74BAD314627335B9BE9 /* Info.plist */,
+				409CE3BC817F4C13DEC8E5FF /* Info.plist */,
 			);
 			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		E7697FFCF545D920C54B3975 /* iOS */ = {
+		A9F88104FFE373B96060FC53 = {
 			isa = PBXGroup;
 			children = (
-				7B54923B3E703A8A3A478863 /* Foundation.framework */,
+				81E8C1828E9BBE29E00AF2AA /* Products */,
+				D5CDD429C817714CD4914BE7 /* Frameworks */,
+				BC6E99A940ACA439FB505D1C /* SmartTodo */,
 			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
-		F2495F5540F904EAB66F1396 /* Services */ = {
+		B40AB0FFB3C9A7FD6EC35D87 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8E5BAFCF1E7FE08A7E186D32 /* DeepSeekClient.swift */,
-				9768488970BA20A63A8B3103 /* KeychainHelper.swift */,
+				7C90E86C3B37CBAC8CE69A67 /* AddTodoView.swift */,
+				12708A8A8877CD38CFA9E15D /* SettingsView.swift */,
+				DD40EAFA2A30A161E06ED9DB /* TodoDetailView.swift */,
+				22D21BF94DD69F5EE0194BBC /* TodoListsView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB7B5A2BF5CC8F3D77CB5ECE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D873A87B720BA65C41B30E29 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC6E99A940ACA439FB505D1C /* SmartTodo */ = {
+			isa = PBXGroup;
+			children = (
+				6D96546B788086FB96C04EB2 /* Assets.xcassets */,
+				6A75660F6C2D2876AC78FFDE /* Models */,
+				BB7B5A2BF5CC8F3D77CB5ECE /* Preview Content */,
+				90FB910B5092BDDB4A466D4B /* Resources */,
+				D0982BD4E5E4F969B5D4E27C /* Services */,
+				CF09D59F2EECF70846ADEBE5 /* SmartTodoApp.swift */,
+				48F90C2E61D23702B0E241F9 /* ViewModels */,
+				B40AB0FFB3C9A7FD6EC35D87 /* Views */,
+			);
+			name = SmartTodo;
+			path = SmartTodo;
+			sourceTree = "<group>";
+		};
+		D0982BD4E5E4F969B5D4E27C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14C90083841E7E395029B692 /* DeepSeekClient.swift */,
+				AE6CEF058D86C1B1062CAB80 /* KeychainHelper.swift */,
 			);
 			name = Services;
 			path = Services;
 			sourceTree = "<group>";
 		};
+		D5CDD429C817714CD4914BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1D924AFEB3EBB95C347F00 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4641A5EF0E84556703A7EF7 /* SmartTodo */ = {
+		26256D9667040F9EEF00B06E /* SmartTodo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA3D3715FD7D9FA283E73E94 /* Build configuration list for PBXNativeTarget "SmartTodo" */;
+			buildConfigurationList = EA1984ACF82B6FA5BA972317 /* Build configuration list for PBXNativeTarget "SmartTodo" */;
 			buildPhases = (
-				D0AC8CF48BA0CE44CC9BD0A5 /* Sources */,
-				B4E85DD17EFA8F9857F4CC31 /* Frameworks */,
-				33D3C3B9332B9FD540EC9D0F /* Resources */,
+				E71746355497DB6106BFAB8B /* Sources */,
+				F9AD7175B08F2C68DD46E158 /* Frameworks */,
+				D1D9DD879278BA183F6E9417 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,19 +174,19 @@
 			);
 			name = SmartTodo;
 			productName = SmartTodo;
-			productReference = E5355803CE08AC69AAAD9198 /* SmartTodo.app */;
+			productReference = 1FF6F330AD4E8CEBB5E2BFBB /* SmartTodo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		412B84BC64EC5242BDDB492B /* Project object */ = {
+		1E44DEB74AA1EAD0189CA7A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 97DAD0A50315EAE70EDC44AC /* Build configuration list for PBXProject "SmartTodo" */;
+			buildConfigurationList = 8FB8D83EE24CB399505EF8B8 /* Build configuration list for PBXProject "SmartTodo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,76 +194,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 7CED1A2A2FE7FDB92F03FA31;
+			mainGroup = A9F88104FFE373B96060FC53;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 120CC82B5DEB949A2842DFF9 /* Products */;
+			productRefGroup = 81E8C1828E9BBE29E00AF2AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4641A5EF0E84556703A7EF7 /* SmartTodo */,
+				26256D9667040F9EEF00B06E /* SmartTodo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		33D3C3B9332B9FD540EC9D0F /* Resources */ = {
+		D1D9DD879278BA183F6E9417 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9FA3C7208A7580111DCCF6 /* Assets.xcassets in Resources */,
-				FB051CA2272FDD04C035CAD9 /* Preview Assets.xcassets in Resources */,
+				2E78CC96243ADFB8628E7A1A /* Assets.xcassets in Resources */,
+				5F5909E80801F127145A79BC /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0AC8CF48BA0CE44CC9BD0A5 /* Sources */ = {
+		E71746355497DB6106BFAB8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A6965E62E2C5686E81126F /* TodoModels.swift in Sources */,
-				4A5848F9BB5D47A7FF2DCCC4 /* DeepSeekClient.swift in Sources */,
-				A82BDD4687B3EAC3CB3E9B14 /* KeychainHelper.swift in Sources */,
-				C7534B8CFA8C6D3BEB2D0EC5 /* SmartTodoApp.swift in Sources */,
-				026FED9C27B2F3273A2CDD37 /* TodoListViewModel.swift in Sources */,
-				7FF53965BC2E66BCD3021A6D /* AddTodoView.swift in Sources */,
-				39474F24073F291CBD83BBF6 /* SettingsView.swift in Sources */,
-				78BBBA52DD316D0759081720 /* TodoDetailView.swift in Sources */,
-				85B523D64C9FDF3A58686B7B /* TodoListsView.swift in Sources */,
+				02900BB07C136828DB958C67 /* TodoModels.swift in Sources */,
+				6B71BF165B70FB02CF9421C9 /* DeepSeekClient.swift in Sources */,
+				21077DFE04AE8FC772868048 /* KeychainHelper.swift in Sources */,
+				D118F0B66E43779A54B71C1E /* SmartTodoApp.swift in Sources */,
+				5FD82F67DEE213460814EF39 /* TodoListViewModel.swift in Sources */,
+				CF87A78A59119478339861EA /* AddTodoView.swift in Sources */,
+				91C4EAD70F17D4791747AC15 /* SettingsView.swift in Sources */,
+				85B5AB03CC3C006111A12FEE /* TodoDetailView.swift in Sources */,
+				56C2E30BC44BD2D486D74158 /* TodoListsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		02C24590292DDFACB7C3F103 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SmartTodo/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = SmartTodo/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smarttodo.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		09E317948F885AD567D757EE /* Debug */ = {
+		0EBF085CF1DE264B9D307755 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -327,7 +302,32 @@
 			};
 			name = Debug;
 		};
-		22893BD089E32AD33D4486BA /* Release */ = {
+		B47FEE5765976841B5C6CF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartTodo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SmartTodo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smarttodo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD0B967521EA6EA174A7435 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,7 +384,7 @@
 			};
 			name = Release;
 		};
-		D216A42946A45CBFE1818B1D /* Debug */ = {
+		E8F4BB8142591304BEE3BAE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -411,25 +411,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97DAD0A50315EAE70EDC44AC /* Build configuration list for PBXProject "SmartTodo" */ = {
+		8FB8D83EE24CB399505EF8B8 /* Build configuration list for PBXProject "SmartTodo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09E317948F885AD567D757EE /* Debug */,
-				22893BD089E32AD33D4486BA /* Release */,
+				0EBF085CF1DE264B9D307755 /* Debug */,
+				CBD0B967521EA6EA174A7435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA3D3715FD7D9FA283E73E94 /* Build configuration list for PBXNativeTarget "SmartTodo" */ = {
+		EA1984ACF82B6FA5BA972317 /* Build configuration list for PBXNativeTarget "SmartTodo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02C24590292DDFACB7C3F103 /* Release */,
-				D216A42946A45CBFE1818B1D /* Debug */,
+				B47FEE5765976841B5C6CF1F /* Release */,
+				E8F4BB8142591304BEE3BAE0 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 412B84BC64EC5242BDDB492B /* Project object */;
+	rootObject = 1E44DEB74AA1EAD0189CA7A8 /* Project object */;
 }
